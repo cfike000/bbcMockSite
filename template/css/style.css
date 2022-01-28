@@ -1,0 +1,253 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro";
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  height: 931px;
+  width: 100%;
+  background-color: #fff;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+header {
+  background-color: black;
+  height: 5%;
+  width: 100%;
+  float: left;
+}
+.left {
+  float: left;
+  color: white;
+  width: 10%;
+  position: relative;
+}
+  
+.aboveText {
+  height: 7%;
+  display: block;
+  clear: both;
+  position: relative;
+}
+
+.in, .date {
+  color: rgb(74, 74, 74);
+  display: inline-block;
+  width: 20%;
+  position: absolute;
+}
+
+.in {
+  margin-left: 1%;
+}
+
+.date{
+  float: right;
+  bottom: 1%;
+  right: 1%;
+}
+}
+ul {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.signin {
+  width: 20%;
+  margin-left: 20%;
+  position: absolute;
+  bottom: 10%;
+}
+
+.signin a {
+  color: white;
+  text-decoration: none;
+
+}
+
+ul > li {
+  list-style-type: none;
+  float: left;
+  width: 7%;
+
+}
+
+a:hover {
+  color: grey;
+}
+
+li > a{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  padding-right: 4%;
+  margin-left: 100px;
+}
+
+.bodyleft {
+  position: relative;
+    margin: .50% .25% .25% .25%;
+  float: left;
+  height: 60%;
+  width:  40%;
+  background: linear-gradient(to top, black, rgba(38, 35, 31, .5) 40%, rgba(65, 60, 53, 0) 50%), 
+              url("https://resources.stuff.co.nz/content/dam/images/4/y/n/s/r/q/image.related.StuffLandscapeSixteenByNine.1420x800.4ynsrj.png/1597347027687.jpg") 0 -40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient();
+}
+
+.bodyright{
+  height: 60%;
+  width:  50%;
+  display: inline-block;
+}
+
+.can {
+     background: linear-gradient(to top, black, rgba(38, 35, 31, .5) 40%, rgba(65, 60, 53, 0) 50%), 
+              url("https://media.istockphoto.com/photos/man-working-from-home-having-online-group-videoconference-on-laptop-picture-id1218983960?k=6&m=1218983960&s=170667a&w=0&h=fhlEQXvAlz99ZG2CmgmRDwn-Q2mMf_KdkB0td6tI8q0=") 0 -20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.can + section {
+      background: linear-gradient(to top, black, rgba(38, 35, 31, .5) 40%, rgba(65, 60, 53, 0) 50%), 
+              url("http://i.huffpost.com/gen/1294022/thumbs/o-CANADA-FLAG-facebook.jpg") 0 -120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.can + section + section {
+      background: linear-gradient(to top, black, rgba(38, 35, 31, .5) 40%, rgba(65, 60, 53, 0) 50%), 
+              url("https://s.abcnews.com/images/Politics/johnson-and-johnson-covid-vaccine-pause-01-gty-llr-210422_1619130802846_hpMain_16x9_992.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.can + section + section + section {
+      background: linear-gradient(to top, black, rgba(38, 35, 31, .5) 40%, rgba(65, 60, 53, 0) 50%), 
+              url("https://blurtonline.com/wp-content/uploads/2015/04/Frank.jpg") 0 -150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bodyright section, .bodyleft {
+  text-align: justify;
+  color: whitesmoke;
+}
+.float{
+  height: 49%;
+  width: 49%;
+  float: left;
+  margin: .95% .25% 0 .25%;
+  position: relative;
+}
+
+.float h2 {
+  padding-bottom: 5%;
+  font-size: 1.4em;
+  font-weight: 300;
+  position: absolute;
+  bottom: 1%;
+    left: 1%;}
+
+.float span {
+  padding-bottom: 5%;
+  font-size: .8em;
+  font-weight: 100;
+  position: absolute;
+  bottom: 1%;
+    left: 1%;}
+}
+
+
+.int, .date {
+  clear: both ;
+  float: left;
+  display: inline-block;
+}
+}
+
+.float span {
+  padding-bottom: 2%;
+  font-size: .8em;
+  opacity: .8;
+}
+
+.bodyleft  h2, .bodyleft p {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    margin: 1% 0 2% 0;
+}
+
+.bodyleft > h2 {
+  padding-bottom: 5%;
+  font-size: 2em;
+}
+
+
+.news {
+  font-size: 2em;
+  float: left;
+  clear: both;
+  margin-left: 1%;
+  color: rgb(74, 74, 74);
+  margin-top: .5%;
+}
+}
+.bodyleft > p {
+  padding-bottom: 2%;
+  font-size: 1em;
+  opacity: .8;
+}
+.veryBottom {
+  height: 50%;
+  clear: both;
+  margin-right: 3.8%;
+}
+.bot {
+  height: 80%;
+  width: 30.333333%;
+  float: left;
+  margin: .95% -.2% 0 1%;
+  position: relative;
+}
+.bodyleft:hover, .float:hover, .botImg:hover {
+  opacity: .9;
+}
+section > h2 + span, section > h2 + p + span  {
+  text-transform: uppercase;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.botImg {
+  width: 100%;
+}
